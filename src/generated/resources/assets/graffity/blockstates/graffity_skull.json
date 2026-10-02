@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "face=ceiling,facing=east": {
+      "model": "graffity:block/graffity_skull_ceiling",
+      "y": 90
+    },
+    "face=ceiling,facing=north": {
+      "model": "graffity:block/graffity_skull_ceiling"
+    },
+    "face=ceiling,facing=south": {
+      "model": "graffity:block/graffity_skull_ceiling",
+      "y": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "graffity:block/graffity_skull_ceiling",
+      "y": 270
+    },
+    "face=floor,facing=east": {
+      "model": "graffity:block/graffity_skull_floor",
+      "y": 90
+    },
+    "face=floor,facing=north": {
+      "model": "graffity:block/graffity_skull_floor"
+    },
+    "face=floor,facing=south": {
+      "model": "graffity:block/graffity_skull_floor",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "graffity:block/graffity_skull_floor",
+      "y": 270
+    },
+    "face=wall,facing=east": {
+      "model": "graffity:block/graffity_skull",
+      "y": 90
+    },
+    "face=wall,facing=north": {
+      "model": "graffity:block/graffity_skull"
+    },
+    "face=wall,facing=south": {
+      "model": "graffity:block/graffity_skull",
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "graffity:block/graffity_skull",
+      "y": 270
+    }
+  }
+}

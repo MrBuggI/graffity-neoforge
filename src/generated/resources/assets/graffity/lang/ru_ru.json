@@ -1,0 +1,12 @@
+{
+  "block.graffity.graffity_boom": "Граффити «Взрыв»",
+  "block.graffity.graffity_eye": "Граффити «Глаза»",
+  "block.graffity.graffity_love": "Граффити «Сердце»",
+  "block.graffity.graffity_skull": "Граффити «Череп»",
+  "item.graffity.eraser": "Ластик",
+  "item.graffity.spray_boom": "Баллончик «Взрыв»",
+  "item.graffity.spray_eye": "Баллончик «Глаза»",
+  "item.graffity.spray_love": "Баллончик «Сердце»",
+  "item.graffity.spray_skull": "Баллончик «Череп»",
+  "itemGroup.graffity.general": "Graffity+"
+}

@@ -1,0 +1,12 @@
+{
+  "block.graffity.graffity_boom": "Boom Graffiti",
+  "block.graffity.graffity_eye": "Eye Graffiti",
+  "block.graffity.graffity_love": "Love Graffiti",
+  "block.graffity.graffity_skull": "Skull Graffiti",
+  "item.graffity.eraser": "Eraser",
+  "item.graffity.spray_boom": "Boom Spray",
+  "item.graffity.spray_eye": "Eye Spray",
+  "item.graffity.spray_love": "Love Spray",
+  "item.graffity.spray_skull": "Skull Spray",
+  "itemGroup.graffity.general": "Graffity+"
+}
