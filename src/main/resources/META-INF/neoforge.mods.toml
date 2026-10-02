@@ -1,0 +1,37 @@
+# Мод написан на Kotlin, поэтому загружается через Kotlin for Forge, а не через javafml.
+modLoader="kotlinforforge"
+loaderVersion="[5,)"
+license="${mod_license}"
+issueTrackerURL="https://github.com/MrBuggI/graffity-neoforge/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="MrBuggI"
+logoFile="icon.png"
+description='''
+Система граффити: баллончики для стен, пола и потолка и ластик.
+Порт Graffity+ с Fabric 1.20.1 на NeoForge 1.21.1, написан на Kotlin.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="kotlinforforge"
+    type="required"
+    versionRange="[${kff_version},)"
+    ordering="NONE"
+    side="BOTH"
