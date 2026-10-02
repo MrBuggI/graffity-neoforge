@@ -1,0 +1,96 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"4": "graffity:item/spray_skull",
+		"particle": "graffity:item/spray_skull"
+	},
+	"elements": [
+		{
+			"name": "spray",
+			"from": [6.1, 0, 6],
+			"to": [10.1, 8, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.1, 1, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#4"},
+				"east": {"uv": [2, 0, 4, 4], "texture": "#4"},
+				"south": {"uv": [0, 4, 2, 8], "texture": "#4"},
+				"west": {"uv": [4, 0, 6, 4], "texture": "#4"},
+				"up": {"uv": [4, 6, 2, 4], "texture": "#4"},
+				"down": {"uv": [6, 4, 4, 6], "texture": "#4"}
+			}
+		},
+		{
+			"name": "spray",
+			"from": [7, 4, 7],
+			"to": [9, 10, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 3, 7]},
+			"faces": {
+				"north": {"uv": [6, 0, 7, 3], "texture": "#4"},
+				"east": {"uv": [2, 6, 3, 9], "texture": "#4"},
+				"south": {"uv": [3, 6, 4, 9], "texture": "#4"},
+				"west": {"uv": [6, 3, 7, 6], "texture": "#4"},
+				"up": {"uv": [8, 1, 7, 0], "texture": "#4"},
+				"down": {"uv": [8, 1, 7, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "spray",
+			"from": [6.4, 8, 6.4],
+			"to": [9.6, 8.5, 9.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -3, 7]},
+			"faces": {
+				"north": {"uv": [7, 2, 8.625, 2.25], "texture": "#4"},
+				"east": {"uv": [7, 2.5, 8.625, 2.75], "texture": "#4"},
+				"south": {"uv": [7, 3, 8.625, 3.25], "texture": "#4"},
+				"west": {"uv": [7, 3.5, 8.625, 3.75], "texture": "#4"},
+				"up": {"uv": [5.625, 7.625, 4, 6], "texture": "#4"},
+				"down": {"uv": [7.625, 6, 6, 7.625], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [28, 0, 0],
+			"translation": [0, 0.75, 1.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [28, 0, 0],
+			"translation": [0, 0.75, 1.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-11, 0, 0],
+			"translation": [1.25, 3.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-11, 0, 0],
+			"translation": [1.25, 3.5, 0]
+		},
+		"ground": {
+			"translation": [0, 0.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [19, -139, -19],
+			"translation": [-0.5, 2.5, 0]
+		},
+		"fixed": {
+			"translation": [0, 3, 0]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 1, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "spray",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
